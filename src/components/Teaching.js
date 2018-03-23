@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'reactstrap';
+import summer from '../assets/images/doe.jpg';
+import mouse from '../assets/images/mousesquad.png';
 
 export default class Teaching extends Component {
   render() {
     return (
+
     <section id="teaching">
       <h2 className="text-center">Work Experience:</h2>
 
@@ -22,7 +25,7 @@ export default class Teaching extends Component {
 
         <Row>
             <Col xs="12" md="4" className="text-center education-bullets">
-              <img src="assets/images/doe.jpg" className="img-fluid"/>
+              <img src={summer} className="img-fluid"/>
 
               <h3>Summer Enrichment Program Tutor:</h3>
 
@@ -34,7 +37,7 @@ export default class Teaching extends Component {
             </Col>
 
             <Col xs="12" md="4" className="offset-md-4 text-center education-bullets">
-              <img src="assets/images/mousesquad.png" className="img-fluid"/>
+              <img src={mouse} className="img-fluid"/>
 
               <h3>MOUSE Squad:</h3>
               <ul>

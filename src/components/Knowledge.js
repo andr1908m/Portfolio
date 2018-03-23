@@ -15,8 +15,6 @@ export default class Knowledge extends Component {
         </Row>
 
         <Row>
-
-
           <Col xs="12" md="4" className="text-center knowledge-topics">
             <i className="fi-laptop"></i>
             <h3>Front-end Web:</h3>

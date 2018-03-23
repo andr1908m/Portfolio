@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'reactstrap';
+import newstruth from '../assets/images/newstruth.png';
+import rgb from '../assets/images/rgb.png';
 
 export default class Projects extends Component {
   render() {
@@ -20,7 +22,7 @@ export default class Projects extends Component {
 
           <Col xs="12" md="6" lg="6">
 
-            <img src="assets/images/newstruth.png" alt="Newstruth" className="img-fluid"/>
+            <img src={newstruth} alt="Newstruth" className="img-fluid"/>
 
           </Col>
 
@@ -61,7 +63,7 @@ export default class Projects extends Component {
           </Col>
 
           <Col xs="12" md="6">
-            <img src="assets/images/rgb.png" alt="webdev" className="img-fluid"/>
+            <img src={rgb} alt="webdev" className="img-fluid"/>
           </Col>
 
         </Row>

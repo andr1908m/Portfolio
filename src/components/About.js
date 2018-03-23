@@ -43,11 +43,9 @@ export default class About extends React.Component{
   render(){
     return (
       <section id="about">
-
         <Container>
           <Row>
             <Col xs="12" lg="8" className="offset-lg-2 text-center">
-
               <img className="img-circle"
                src="https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/22814294_162518504343965_5508364658354928103_n.jpg?oh=27a5cbaf73e51256ee0627897dac2e2a&oe=5AB37D14"
               alt="headshot"/>
